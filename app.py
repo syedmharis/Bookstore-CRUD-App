@@ -6,8 +6,8 @@ from bson import ObjectId
 app = Flask(__name__)
 CORS(app) 
 
-# MongoDB connection string.
-client = MongoClient("mongodb://localhost:27017")
+##Folio3 Office IP WIFI
+client = MongoClient("mongodb://10.210.66.251:27018")
 db = client["bookstore"]
 books_collection = db["books"]
 

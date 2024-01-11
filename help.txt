@@ -1,0 +1,88 @@
+---Run Python Image
+
+docker run -p 5000:5000 --name myflaskapp --network mynetwork -d syedharis/python-image
+
+---Build and push image 
+
+docker build -t syedharis/python-image:latest .
+docker push syedharis/python-image:latest
+
+---Create a token 
+
+kubectl create token cluster-admin-dashboard -n kubernetes-dashboard
+
+kubectl proxy
+
+---Copy files
+
+kubectl cp ./build/. nginx-deployment-666c86498d-vffvl:/usr/share/nginx/html/
+
+kubectl cp ./default.conf nginx-deployment-7c79c4bf97-dr7hg:/etc/nginx/conf.d/default.conf
+
+ 
+
+
+
+apiVersion: v1
+kind: PersistentVolume
+metadata:
+  name: nginx-pv
+spec:
+  capacity:
+    storage: 1Gi  # Adjust the storage size as needed
+  accessModes:
+    - ReadWriteOnce
+  hostPath:
+    path: /run/desktop/mnt/host/c/Users/syedmuhammadharis/Documents/cloud-comp  # Adjust the host path as needed
+---
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: nginx-pvc
+spec:
+  accessModes:
+    - ReadWriteOnce
+  resources:
+    requests:
+      storage: 1Gi  # Match the storage size with the PV
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: nginx-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: nginx
+  template:
+    metadata:
+      labels:
+        app: nginx
+    spec:
+      containers:
+      - name: nginx
+        image: nginx:latest
+        ports:
+        - containerPort: 80
+        volumeMounts:
+        - name: nginx-pvc
+          mountPath: /usr/share/nginx/html
+      volumes:
+      - name: nginx-pvc
+        persistentVolumeClaim:
+          claimName: nginx-pvc
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: nginx-service
+spec:
+  selector:
+    app: nginx
+  ports:
+    - protocol: TCP
+      port: 80  # External port for accessing the Nginx service
+      targetPort: 80
+  type: LoadBalancer  # Change to NodePort if needed
+

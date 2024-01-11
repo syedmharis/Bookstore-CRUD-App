@@ -1,0 +1,36 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: flask-app-deployment
+spec:
+  replicas: 2  # number of instances
+  selector:
+    matchLabels:
+      app: flask-app
+  template:
+    metadata:
+      labels:
+        app: flask-app
+    spec:
+      containers:
+      - name: flask-app
+        image: syedharis/python-image:latest  # use your Docker Hub image
+        ports:
+        - containerPort: 5000  # port that Flask app listens on
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: flask-app-service
+spec:
+  selector:
+    app: flask-app
+  ports:
+    - protocol: TCP
+      port: 8000  # external port
+      targetPort: 5000  # internal port Flask app is listening on
+  type: LoadBalancer  # or NodePort, depending on your cluster setup
+
+
+Folio3 network Ip - 172.18.112.1
