@@ -1,0 +1,344 @@
+[{
+  "_id": {
+    "$oid": "659ce7109ba60683a6c40de7"
+  },
+  "title": "Example Book",
+  "author": "Author Name",
+  "isbn": "123-4567890123"
+},
+{
+  "_id": {
+    "$oid": "659ce8a19ba60683a6c40de8"
+  },
+  "title": "The Grand Design",
+  "author": "Stephen Hawking",
+  "isbn": "978-0553805376"
+},
+{
+  "_id": {
+    "$oid": "659ce8cc9ba60683a6c40de9"
+  },
+  "title": "Sapiens: A Brief History of Humankind",
+  "author": "Yuval Noah Harari",
+  "isbn": "978-0062316097"
+},
+{
+  "_id": {
+    "$oid": "659ce8d59ba60683a6c40dea"
+  },
+  "title": "1984",
+  "author": "George Orwell",
+  "isbn": "978-0451524935"
+},
+{
+  "_id": {
+    "$oid": "659ce8e39ba60683a6c40deb"
+  },
+  "title": "To Kill a Mockingbird",
+  "author": "Harper Lee",
+  "isbn": "978-0060935467"
+},
+{
+  "_id": {
+    "$oid": "659ce8f29ba60683a6c40dec"
+  },
+  "title": "The Great Gatsby",
+  "author": "F. Scott Fitzgerald",
+  "isbn": "978-0743273565"
+},
+{
+  "_id": {
+    "$oid": "659ce9039ba60683a6c40ded"
+  },
+  "title": "Pride and Prejudice",
+  "author": "Jane Austen",
+  "isbn": "978-0141439518"
+},
+{
+  "_id": {
+    "$oid": "659ce90b9ba60683a6c40dee"
+  },
+  "title": "The Catcher in the Rye",
+  "author": "J.D. Salinger",
+  "isbn": "978-0316769488"
+},
+{
+  "_id": {
+    "$oid": "659ce9149ba60683a6c40def"
+  },
+  "title": "The Alchemist",
+  "author": "Paulo Coelho",
+  "isbn": "978-0062315008"
+},
+{
+  "_id": {
+    "$oid": "659ce9a32f132b623fe6fede"
+  },
+  "title": "The Grand Design",
+  "author": "Stephen Hawking",
+  "isbn": "978-0553805376"
+},
+{
+  "_id": {
+    "$oid": "659ce9a32f132b623fe6fedf"
+  },
+  "title": "Sapiens: A Brief History of Humankind",
+  "author": "Yuval Noah Harari",
+  "isbn": "978-0062316097"
+},
+{
+  "_id": {
+    "$oid": "659ce9a32f132b623fe6fee0"
+  },
+  "title": "1984",
+  "author": "George Orwell",
+  "isbn": "978-0451524935"
+},
+{
+  "_id": {
+    "$oid": "659ce9a32f132b623fe6fee1"
+  },
+  "title": "To Kill a Mockingbird",
+  "author": "Harper Lee",
+  "isbn": "978-0060935467"
+},
+{
+  "_id": {
+    "$oid": "659ce9a32f132b623fe6fee2"
+  },
+  "title": "The Great Gatsby",
+  "author": "F. Scott Fitzgerald",
+  "isbn": "978-0743273565"
+},
+{
+  "_id": {
+    "$oid": "659ce9a32f132b623fe6fee3"
+  },
+  "title": "Pride and Prejudice",
+  "author": "Jane Austen",
+  "isbn": "978-0141439518"
+},
+{
+  "_id": {
+    "$oid": "659ce9a32f132b623fe6fee4"
+  },
+  "title": "The Catcher in the Rye",
+  "author": "J.D. Salinger",
+  "isbn": "978-0316769488"
+},
+{
+  "_id": {
+    "$oid": "659ce9a32f132b623fe6fee5"
+  },
+  "title": "The Alchemist",
+  "author": "Paulo Coelho",
+  "isbn": "978-0062315008"
+},
+{
+  "_id": {
+    "$oid": "659ce9a32f132b623fe6fee6"
+  },
+  "title": "Harry Potter and the Sorcerer's Stone",
+  "author": "J.K. Rowling",
+  "isbn": "978-0590353427"
+},
+{
+  "_id": {
+    "$oid": "659ce9a32f132b623fe6fee7"
+  },
+  "title": "The Lord of the Rings",
+  "author": "J.R.R. Tolkien",
+  "isbn": "978-0544003415"
+},
+{
+  "_id": {
+    "$oid": "659ce9a32f132b623fe6fee8"
+  },
+  "title": "Animal Farm",
+  "author": "George Orwell",
+  "isbn": "978-0451526342"
+},
+{
+  "_id": {
+    "$oid": "659ce9a32f132b623fe6fee9"
+  },
+  "title": "The Hobbit",
+  "author": "J.R.R. Tolkien",
+  "isbn": "978-0547928227"
+},
+{
+  "_id": {
+    "$oid": "659ce9a32f132b623fe6feea"
+  },
+  "title": "Brave New World",
+  "author": "Aldous Huxley",
+  "isbn": "978-0060850524"
+},
+{
+  "_id": {
+    "$oid": "659ce9a32f132b623fe6feeb"
+  },
+  "title": "Fahrenheit 451",
+  "author": "Ray Bradbury",
+  "isbn": "978-1451673319"
+},
+{
+  "_id": {
+    "$oid": "659ce9a32f132b623fe6feec"
+  },
+  "title": "Jane Eyre",
+  "author": "Charlotte Brontë",
+  "isbn": "978-0141441146"
+},
+{
+  "_id": {
+    "$oid": "659ce9a32f132b623fe6feed"
+  },
+  "title": "Wuthering Heights",
+  "author": "Emily Brontë",
+  "isbn": "978-0141439556"
+},
+{
+  "_id": {
+    "$oid": "659ce9a32f132b623fe6feee"
+  },
+  "title": "The Little Prince",
+  "author": "Antoine de Saint-Exupéry",
+  "isbn": "978-0156012195"
+},
+{
+  "_id": {
+    "$oid": "659ce9a32f132b623fe6feef"
+  },
+  "title": "Moby Dick",
+  "author": "Herman Melville",
+  "isbn": "978-1503280786"
+},
+{
+  "_id": {
+    "$oid": "659ce9a32f132b623fe6fef0"
+  },
+  "title": "War and Peace",
+  "author": "Leo Tolstoy",
+  "isbn": "978-1400079988"
+},
+{
+  "_id": {
+    "$oid": "659ce9a32f132b623fe6fef1"
+  },
+  "title": "Hamlet",
+  "author": "William Shakespeare",
+  "isbn": "978-1981020824"
+},
+{
+  "_id": {
+    "$oid": "659ce9a32f132b623fe6fef2"
+  },
+  "title": "The Odyssey",
+  "author": "Homer",
+  "isbn": "978-0140268867"
+},
+{
+  "_id": {
+    "$oid": "659ce9a32f132b623fe6fef3"
+  },
+  "title": "Crime and Punishment",
+  "author": "Fyodor Dostoevsky",
+  "isbn": "978-0143058144"
+},
+{
+  "_id": {
+    "$oid": "659ce9a32f132b623fe6fef4"
+  },
+  "title": "The Brothers Karamazov",
+  "author": "Fyodor Dostoevsky",
+  "isbn": "978-0374528379"
+},
+{
+  "_id": {
+    "$oid": "659ce9a32f132b623fe6fef5"
+  },
+  "title": "The Divine Comedy",
+  "author": "Dante Alighieri",
+  "isbn": "978-0142437223"
+},
+{
+  "_id": {
+    "$oid": "659ce9a32f132b623fe6fef6"
+  },
+  "title": "Don Quixote",
+  "author": "Miguel de Cervantes",
+  "isbn": "978-0060934347"
+},
+{
+  "_id": {
+    "$oid": "659ce9a32f132b623fe6fef7"
+  },
+  "title": "Invisible Man",
+  "author": "Ralph Ellison",
+  "isbn": "978-0679732761"
+},
+{
+  "_id": {
+    "$oid": "659ce9a32f132b623fe6fef8"
+  },
+  "title": "Beloved",
+  "author": "Toni Morrison",
+  "isbn": "978-1400033416"
+},
+{
+  "_id": {
+    "$oid": "659ce9a32f132b623fe6fef9"
+  },
+  "title": "Ulysses",
+  "author": "James Joyce",
+  "isbn": "978-0679722762"
+},
+{
+  "_id": {
+    "$oid": "659ce9a32f132b623fe6fefa"
+  },
+  "title": "Madame Bovary",
+  "author": "Gustave Flaubert",
+  "isbn": "978-0140449129"
+},
+{
+  "_id": {
+    "$oid": "659ce9a32f132b623fe6fefb"
+  },
+  "title": "Lolita",
+  "author": "Vladimir Nabokov",
+  "isbn": "978-0679723165"
+},
+{
+  "_id": {
+    "$oid": "659d15ee3dbdd7e323dd0119"
+  },
+  "title": "Folio3",
+  "author": "Haris",
+  "isbn": "316-000-5080"
+},
+{
+  "_id": {
+    "$oid": "659d161a3dbdd7e323dd011a"
+  },
+  "title": "Folio4",
+  "author": "Musadiq",
+  "isbn": "316-000-5080"
+},
+{
+  "_id": {
+    "$oid": "659d169b3dbdd7e323dd011b"
+  },
+  "title": "Folio5",
+  "author": "Moiz",
+  "isbn": "none"
+},
+{
+  "_id": {
+    "$oid": "659d17773dbdd7e323dd011c"
+  },
+  "title": "Enigma FYP",
+  "author": "HARIS",
+  "isbn": "none"
+}]
